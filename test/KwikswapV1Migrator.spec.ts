@@ -35,5 +35,4 @@ describe('KwikswapV1Migrator', () => {
     migrator = fixture.migrator
     WETHExchangeV = fixture.WETHExchangeV
   })
-
 })

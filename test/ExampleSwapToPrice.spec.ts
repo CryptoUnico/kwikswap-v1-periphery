@@ -103,6 +103,5 @@ describe('ExampleSwapToPrice', () => {
         swapToPriceExample.swapToPrice(token0.address, token1.address, 1, 100, 0, 0, wallet.address, MaxUint256)
       ).to.be.revertedWith('ExampleSwapToPrice: ZERO_SPEND')
     })
-
   })
 })
